@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Git Favorites</title>
+</head>
+
+<body>
+    <div class="app">
+        <header>
+            <h1>Github Favorites</h1>
+            <div class="search">
+                <label class="sr-only" for="input-search">Usuário do Github</label>
+                <input id="input-search" type="text" placeholder="Usuario do GitHub">
+                <button>&plus;</button>
+            </div>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Usuário</th>
+                    <th>Repositorios</th>
+                    <th>Seguidores</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/AndersonCoitinho.png" alt="Imagem do GitHub">
+                        <a href="https://github.com/AndersonCoitinho" target="_blank">
+                            <p>Anderson Coitinho</p>
+                            <span>AndersonCoitinho</span>
+                        </a>
+                    </td>
+                    <td class="repositories">
+                        95
+                    </td>
+                    <td class="followers">
+                        135
+                    </td>
+                    <td>
+                        <button class="remove">&times;</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/Alima07.png" alt="Imagem do GitHub">
+                        <a href="https://github.com/Alima07" target="_blank">
+                            <p>Alex Limao</p>
+                            <span>Alima07</span>
+                        </a>
+                    </td>
+                    <td class="repositories">
+                        50
+                    </td>
+                    <td class="followers">
+                        15
+                    </td>
+                    <td>
+                        <button class="remove">&times;</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
